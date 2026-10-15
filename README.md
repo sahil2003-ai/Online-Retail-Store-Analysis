@@ -1,37 +1,26 @@
 # Online Retail Store Analysis
 
-A business intelligence project answering four CEO/CMO questions about revenue trends, customer contribution, geographic demand, and expansion opportunities in an online retail dataset.
+A Power BI business intelligence project built around four CEO/CMO questions about revenue trends, customer value, geography, and expansion opportunities.
 
-## Business Questions
+## Step-by-step workflow
 
-1. **Monthly revenue trends:** Examine monthly revenue during 2011 to understand seasonality and support planning.
-2. **Top revenue-generating countries:** Rank countries by revenue and quantity sold, excluding the United Kingdom from this visual.
-3. **Highest-value customers:** Identify the top 10 customers by revenue to support customer-retention planning.
-4. **Geographic demand:** Compare demand across countries to help identify potential expansion markets, excluding the United Kingdom from this view.
+1. **Open the report** — open `Online Retail Store Analysis Dashboard.pbix` in Power BI Desktop.
+2. **Check the data source** — confirm the source file/connection and refresh the report if the data is available.
+3. **Review monthly revenue** — examine month-by-month revenue for 2011 and look for seasonal patterns.
+4. **Compare countries** — rank countries by revenue and quantity sold, excluding the United Kingdom from the requested visual.
+5. **Rank customers** — sort the top 10 customers by revenue to support retention discussions.
+6. **Explore geographic demand** — compare demand across countries for potential expansion; exclude the UK from this visual as requested.
+7. **Validate measures** — confirm the revenue formula, currency, date range, filters, and sorting before drawing conclusions.
+8. **Write findings** — add three to five observations based on the actual dashboard and distinguish evidence from recommendations.
 
 ## Tools
-- Power BI for visuals and interactive business reporting
-- Retail transaction data (confirm the exact source and fields in the project files)
+Power BI, retail transaction analysis, revenue and customer KPIs, geographic comparison.
 
-## Analytical Approach
-- Aggregate revenue by month, country, and customer.
-- Rank countries and customers using clearly defined measures.
-- Exclude the United Kingdom only from the visuals where requested.
-- Use chart labels and sorting to make comparisons easy to interpret.
+## Dashboard screenshots
+Screenshots are not currently present in the repository root. Add images to an `images/` folder and embed them here, for example `![Dashboard](images/dashboard.png)`.
 
-## How to Review
-1. Open the Power BI report file in this repository.
-2. Confirm the data source and any required refresh steps.
-3. Review each visual against the corresponding business question.
-4. Validate the revenue and quantity measures before using the findings for decisions.
+## Limitations
+Expansion decisions need more than historical sales; consider logistics, costs, competition, and data coverage.
 
-## Skills Demonstrated
-Business requirements interpretation, retail analytics, revenue analysis, customer ranking, geographic comparison, and dashboard design.
-
-## Recommended Enhancements
-- Add screenshots of the completed dashboard.
-- Document the dataset source, date range, and currency.
-- Explain whether revenue is quantity multiplied by unit price or a supplied field.
-- Add a short **Key Findings** section containing only verified results.
-
-> This README documents the questions and analysis scope. Specific findings are intentionally not stated until they can be checked against the report and data.
+## Next improvements
+Add dataset provenance, KPI definitions, screenshots, and verified insights.
